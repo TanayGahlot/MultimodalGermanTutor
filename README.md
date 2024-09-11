@@ -18,3 +18,20 @@ Player> Ja
 Barista> perfekt
 ```
 
+# Design
+
+## Actors
+
+
+### Imitator
+Actor which takes up the role of someone who talks to the player. In our example above Barista lady is the Imitator.
+
+### Player
+Actor which talks to the Imitator to complete an objective. For ex: Player which talks to the barista lady to order espresso.
+
+### Tutor
+Actor which helps out Player when they are stuck. Also, they correct the mistakes and suggest improvements.
+
+
+
+
