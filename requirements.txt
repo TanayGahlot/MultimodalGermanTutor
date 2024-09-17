@@ -2,3 +2,6 @@ transformers
 torch
 accelerate
 pytest
+SpeechRecognition
+pyttsx3
+pyaudio

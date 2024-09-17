@@ -34,4 +34,16 @@ Actor which helps out Player when they are stuck. Also, they correct the mistake
 
 
 
+# Installation 
 
+## Mac 
+
+### Install Audio processing related dependencies
+```
+brew install portaudio
+```
+
+### Install library requirements
+```
+pip install -r requirements.txt
+```
