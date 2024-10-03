@@ -1,0 +1,40 @@
+How do algorithmic biases arise at various stages of the machine learning process, and what solutions does the author suggest to address these biases in the paper?
+
+
+Places where biases can creep in in a ML pipeline:
+1. data collection, 
+    1. Types of Biases
+        1. Historical bias
+        2. Population bias
+        3. Content production bias
+        4. Functional bias
+        5. Platform bias
+        6. Linking bias
+2. data preparation,
+    1. Types of Biases
+        1. Representation bias
+        2. Measurement bias
+        3. Labelling bias
+        4. Documentation bias
+        5. Acquisition, querying, filtering and cleaning bias 
+3. model development,
+    1. Types of Biases
+        1. Aggregation bias
+4. model evaluation,
+    1. Types of Biases
+        1. Evaluation bias
+5. model deployment
+    1. Types of Biases
+        1. Deployment bias
+        2. Feedback loop bias
+
+
+Techniques to reduce bias:
+1. Improve data collection by collecting group type which can be used to slice the data. For instance, if there is a bias on the basis of ethnicity, collect the ethnicity of the students. Make sure that the sensitive data is handled appropriately. Furthermore, while labelling the data, make sure that the instructions are clear to the labeller.
+2. Create tools to proactively identify bias in current system and a regression set which can be used to test new changes/approaches.
+3. Open up systems for audits 
+4. Make the ML/AI systems more interpretable and involve the communities which are affected adversely in future iteration of the system.
+
+
+Reference:
+1. Algorithmic bias in education: https://link.springer.com/article/10.1007/s40593-021-00285-9
