@@ -1,0 +1,10 @@
+Q: How do the authors conduct the need-finding study, and what are their key findings?
+
+A: Need finding study was conducted in two phases. First, the researcher figured out the which NLP tasks are relevant in getting from the context to questions. Second, during the interview, the participants were asked to design questions on their own. Once they were done, the participants were shown the NLP tasks which was used to come up with questions. They were asked about the helpfulness of each task in designing the question. The setup of study is inspired from replay enactment techniques used in HCI to garner feedback on futuristic technologies that don’t exist today. It helps the participant to provide feedback since it’s difficult to reason about something that doesn’t exist today.
+
+The results of need finding study confirmed the need for an automated system and highlighted the following set of flaws which make them unusable:
+- QG system is not goal driven whereas most of the question are designed with some goal in mind. 
+- QG system depend on the context whereas the question might borrow information from something that’s not present in context. Participant use their experience to design questions.
+- QG designs questions in isolation whereas the purpose of a quiz is to contain question which cover the context 
+- QG system are single pass whereas QG is inherently iterative process
+- QG system support just one strategy in the current form whereas participant employ different strategy depending on the context.

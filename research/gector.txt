@@ -1,0 +1,11 @@
+Q: How does the proposed GEC approach address the limitations of previous NMT-based methods, such as the need for large amounts of training data and lack of interpretability?
+
+A: Limitation of NMT bases approach:
+1. Slow inference
+    1. Gector does not require auto-regressive decoding like NMT which makes it significantly faster. It reduces the inference time from .7 sec to .2 sec.
+2. Training data 
+    1. Gector’s base model is a pre-trained model which reduces the domain specific training data due to transfer learning 
+    2. Gectors output is tags which is very small in comparison to NMT where the output is a word from vocabulary. This reduces the amount of training data since it’s a much simpler problem to solve.
+3. Interpretability
+    1. Gector outputs tags which can be interpreted easily by the domain expert in contrast with NMT which outputs the tokens. 
+
