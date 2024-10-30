@@ -1,0 +1,10 @@
+Question for Paper 2: How do the authors construct their SFT dataset to enhance the model's pedagogical effectiveness, and how do they evaluate the model’s education-specific improvements?
+
+SFT Goldens Dataset was created by expert teacher which were tasked to demonstrate a particular pedagogy. The pedagogy was selected based on literature in learning science and falls broadly into one of the following categories:
+- encourage active learning 
+- manage cognitive load 
+- deepen metacognition
+- motivate and stimulate curiosity
+- adapt to learners’ goals and needs. 
+
+Once the models were fine-tuned on the newly created SFT dataset, the performance improvement was measured using human evals. At each step the rater were not only asked if the response was satisfactory. They were also asked if the response meets one of the pedadgogy’s style. In this manner, they were able to measure if they made an improvement in terms of pedagogy and not just user preference.
